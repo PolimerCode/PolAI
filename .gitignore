@@ -1,2 +1,4 @@
 dataset/
 *.npy
+__pycache__/
+*.pth

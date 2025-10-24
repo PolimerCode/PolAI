@@ -4,6 +4,7 @@ from torch.utils.data import DataLoader
 from dataset_loader import MinecraftDataset
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
+print(device)
 
 class SimpleCNN(nn.Module):
     def __init__(self):
